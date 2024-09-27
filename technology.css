@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+}
+
+header{
+    background-color:  #f8f8f8;
+    position: sticky;
+}
+
+body{
+    background-color: white;
+}
+
+/* Typography */
+
+h1{
+    font-size: 1.8rem;
+    color: black;
+    width: 25%;
+    /* border: solid 2px blue; */
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.active-nav{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.nav-link{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.nav-link:hover,
+.nav-link:active{
+    color: rgb(79, 79, 79);
+}
+
+/* Header Layout */
+
+nav{
+    /* border: solid 2px blue; */
+    width: 60%;
+}
+
+header{
+    padding: 2em 0;
+}
+
+.nav-container .i{
+    color: black;
+    font-size: 2.5rem;
+    text-align: end;
+    width: 20%;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    /* border: solid 2px blue; */
+    margin: 0 auto;
+    /* border: solid 2px blue; */
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 717px){
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-container i{
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/* Section */
+
+/* Typography */
+
+h2{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    text-decoration: underline;
+}
+
+h4{
+    text-decoration: underline;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+img{
+    width: 50%;
+}
+
+.language{
+    width: 35%;
+}
+
+.description{
+    font-size: 1.1rem;
+}
+
+.terms-paragraph{
+    color: white;
+}
+
+/* Section Layout */
+
+.technology-image{
+    margin-top: 2em;
+    display: flex;
+    gap: 30px;
+}
+
+.first-paragraph{
+    width: 100%;
+}
+
+@media (max-width: 717px){
+    .technology-image{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+.logo{
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 1em;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    border: solid 2px black;
+}
+
+@media (max-width: 717px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .language{
+        width: 70%;
+    }
+}
+
+.terms-box{
+    padding: 1em;
+    width: 48%;
+    background-color: black;
+}
+
+.terms{
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 717px){
+    .terms{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .terms-box{
+        width: 100%;
+    }
+}
+
+/* Footer Typhography */
+
+.footer-h1{
+    width: 80%;
+    color: white;
+}
+
+.logo1 i{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.active-nav-footer{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.footer-link{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+.footers{
+    text-decoration: none;
+}
+
+
+/* Footer Layout */
+
+
+footer{
+    margin-top: 5em;
+    background-color: black;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+    padding: 2em 0;
+
+}
+
+.logo1{
+    width: 30%;
+}
+
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-footer{
+    width: 70%;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+@media (max-width: 717px){
+    .footer-header{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-h1{
+        width: 100%;
+    }
+
+    .logo1{
+        text-align: center;
+        width: 100%;
+    }
+
+}
