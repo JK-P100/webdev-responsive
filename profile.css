@@ -6,8 +6,9 @@
 }
 
 header{
-    background-color:  #f8f8f8;
-    position: sticky;
+    padding: 2em 0;
+    background-color: black;
+    border-radius: 0 0 70px 70px;
 }
 
 body{
@@ -18,8 +19,8 @@ body{
 
 h1{
     font-weight: 700;
-    font-size: 1.5rem;
-    color: black;
+    font-size: 1.8rem;
+    color: white;
     width: 25%;
     /* border: solid 2px blue; */
 }
@@ -36,7 +37,7 @@ h1{
 .nav-link{
     font-weight: 600;
     font-size: 1.2rem;
-    color: black;
+    color: white;
     text-decoration: none;
     font-style: normal;
 }
@@ -58,7 +59,7 @@ header{
 }
 
 .nav-container .i{
-    color: black;
+    color: white;
     font-size: 2.5rem;
     text-align: end;
     width: 20%;
@@ -100,10 +101,10 @@ header{
     h1{
         text-align: center;
         width: 100%;
+        font-size: 1.8rem;
     }
 
     .nav-container i{
-        display: none;
         text-align: center;
         width: 100%;
     }
